@@ -48,6 +48,7 @@
         }
 
         .hand {
+          font-size: 2rem;
           animation: rotate 250ms infinite alternate;
         }
       </style>
