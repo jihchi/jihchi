@@ -10,10 +10,10 @@
       <style>
         @keyframes rotate {
           0% {
-            transform: rotate(3deg);
+            transform: rotate(10deg);
           }
           100% {
-            transform: rotate(-3deg);
+            transform: rotate(-10deg);
           }
         }
 
@@ -48,11 +48,14 @@
         }
 
         .hand {
-          font-size: 2rem;
-          animation: rotate 250ms infinite alternate;
+          font-size: 2.5rem;
+          animation: rotate 180ms infinite alternate;
         }
       </style>
-      <div class="container">Hi there! <span class="hand">👋</span></div>
+      <div class="container">
+        <div>Hi there!</div>
+        <div class="hand">👋</div>
+      </div>
     </div>
   </foreignObject>
 </svg>
